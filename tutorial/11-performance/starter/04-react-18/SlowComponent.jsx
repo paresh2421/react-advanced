@@ -3,7 +3,8 @@ import { useState } from 'react';
 const newItems = Array.from({ length: 5000 }, (_, index) => {
   return (
     <div key={index}>
-      <img src='/vite.svg' alt='' />
+      {/* <img src='/vite.svg' alt='' /> */}
+      <p>F1</p>
     </div>
   );
 });
